@@ -5,30 +5,18 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogApp", "BlogApp\BlogApp.csproj", "{2B2FFDCB-D2C9-49B2-9581-05BD5C09C006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{CCCB7812-18BA-4ABB-8CDC-2042C0590C72}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{921BAC12-0996-4329-A5A0-AA31F598345D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2B2FFDCB-D2C9-49B2-9581-05BD5C09C006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2B2FFDCB-D2C9-49B2-9581-05BD5C09C006}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B2FFDCB-D2C9-49B2-9581-05BD5C09C006}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B2FFDCB-D2C9-49B2-9581-05BD5C09C006}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCCB7812-18BA-4ABB-8CDC-2042C0590C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCCB7812-18BA-4ABB-8CDC-2042C0590C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCCB7812-18BA-4ABB-8CDC-2042C0590C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCCB7812-18BA-4ABB-8CDC-2042C0590C72}.Release|Any CPU.Build.0 = Release|Any CPU
-		{921BAC12-0996-4329-A5A0-AA31F598345D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{921BAC12-0996-4329-A5A0-AA31F598345D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{921BAC12-0996-4329-A5A0-AA31F598345D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{921BAC12-0996-4329-A5A0-AA31F598345D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

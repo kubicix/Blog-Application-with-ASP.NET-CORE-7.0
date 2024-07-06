@@ -63,3 +63,6 @@ C:\Users\kubil\Desktop\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.csproj.AssemblyR
 C:\Users\kubil\Desktop\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.csproj.Up2Date
 C:\Users\kubil\Desktop\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.RazorAssemblyInfo.cache
 C:\Users\kubil\Desktop\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.RazorAssemblyInfo.cs
+C:\Users\kubil\Desktop\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.sourcelink.json
+C:\Users\kubil\Desktop\BlogApp\BlogApp\bin\Debug\net8.0\libman.json
+C:\Users\kubil\Desktop\BlogApp\BlogApp\bin\Debug\net8.0\BlogApp.staticwebassets.runtime.json

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QGyu7H+vRms6rNnb60ievn/mgh7f6iI4cVGimtUNj0k=",
+  "Hash": "SRAUk7/ogmmofHPODlNHLXIWX5fD+QbZwze8d283JW4=",
   "Source": "BlogApp",
   "BasePath": "_content/BlogApp",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\wwwroot\\css\\style.cs",
+      "Identity": "C:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\wwwroot\\css\\style.css",
       "SourceId": "BlogApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\wwwroot\\",
       "BasePath": "_content/BlogApp",
-      "RelativePath": "css/style.cs",
+      "RelativePath": "css/style.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\style.cs"
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\wwwroot\\img\\1.jpg",

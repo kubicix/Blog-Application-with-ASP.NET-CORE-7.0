@@ -13,11 +13,11 @@ namespace BlogApp.Data.Concrete.EfCore
                     context.Database.Migrate();
                 }
                 if(!context.Tags.Any()){
-                    context.Tags.AddRange(new Tag{Text="web programming",Url="web-programming"},
-                    new Tag{Text="backend",Url="backend"},
-                    new Tag{Text="frontend",Url="frontend"},
-                    new Tag{Text="fullstack",Url="fullstack"},
-                    new Tag{Text="php",Url="php"});
+                    context.Tags.AddRange(new Tag{Text="web programming",Url="web-programming",Color=TagColors.warning},
+                    new Tag{Text="backend",Url="backend",Color=TagColors.info},
+                    new Tag{Text="frontend",Url="frontend",Color=TagColors.success},
+                    new Tag{Text="fullstack",Url="fullstack",Color=TagColors.secondary},
+                    new Tag{Text="php",Url="php",Color=TagColors.primary});
                     context.SaveChanges();
                 }
                 if(!context.Users.Any()){

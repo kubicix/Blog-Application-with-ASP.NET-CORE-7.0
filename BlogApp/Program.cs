@@ -21,7 +21,7 @@ SeedData.TestVerileriniDoldur(app);
 app.UseStaticFiles();
 
 //localhost://posts/react-course
-//localhost://posts/web-design
+//localhost://posts/tag/web-design
 //...
 
 app.MapControllerRoute(
@@ -29,6 +29,13 @@ app.MapControllerRoute(
     pattern: "posts/{url}",
     defaults: new {controller="Posts",Action="Details"}
 );
+
+app.MapControllerRoute(
+    name: "posts_by_tag",
+    pattern: "posts/tag/{tag}",
+    defaults: new {controller="Posts",Action="Index"}
+);
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"

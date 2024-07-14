@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WjnJwyyv6fY=",
+  "dgSpecHash": "+oZuaayUQKo=",
   "success": true,
-  "projectFilePath": "c:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj",
+  "projectFilePath": "C:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kubil\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\kubil\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.10\\microsoft.data.sqlite.core.7.0.10.nupkg.sha512",

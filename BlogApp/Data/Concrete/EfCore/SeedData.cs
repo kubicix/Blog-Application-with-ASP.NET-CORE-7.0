@@ -46,12 +46,12 @@ namespace BlogApp.Data.Concrete.EfCore
                         Comments=new List<Comment>{
                             new Comment {
                                 Text="nice course, keep it up!",
-                                PublishedOn=new DateTime(),
+                                PublishedOn=DateTime.Now.AddDays(-20),
                                 UserId=1
                             },
                             new Comment {
                                 Text="I learned a lot from this course",
-                                PublishedOn=new DateTime(),
+                                PublishedOn=DateTime.Now.AddDays(-10),
                                 UserId=2
                             }
                         }

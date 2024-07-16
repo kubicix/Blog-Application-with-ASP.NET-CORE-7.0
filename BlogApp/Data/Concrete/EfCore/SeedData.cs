@@ -23,13 +23,14 @@ namespace BlogApp.Data.Concrete.EfCore
                 if(!context.Users.Any()){
                     context.Users.AddRange(
                         new User {
-                            UserName="kubilaybirer",
+                            UserName="kubilaybirer",Name="Kubilay Birer",Email="info@kb.com",Password="123456",
                             Image="p1.jpg"
                         },
                         new User {
-                            UserName="kuzeybirer",
+                            UserName="kuzeybirer",Name="Kuzey Birer",Email="info@kb.com",Password="123456",
                             Image="p2.jpg"
                         }
+                        
                     );
                     context.SaveChanges();
                 }

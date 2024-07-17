@@ -1,6 +1,7 @@
 using BlogApp.Data.Abstract;
 using BlogApp.Data.Concrete;
 using BlogApp.Data.Concrete.EfCore;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,18 +9,28 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<BlogContext>(options =>{
-    
     options.UseSqlite(builder.Configuration["ConnectionStrings:Sql_connection"]);
+
 });
 
 builder.Services.AddScoped<IPostRepository,EfPostRepository>();
 builder.Services.AddScoped<ITagRepository,EfTagRepository>();
 builder.Services.AddScoped<ICommentRepository,EfCommentRepository>();
+builder.Services.AddScoped<IUserRepository,EfUserRepository>();
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+
 
 var app = builder.Build();
-SeedData.TestVerileriniDoldur(app);
 
 app.UseStaticFiles();
+
+app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+
+SeedData.TestVerileriniDoldur(app);
+
 
 //localhost://posts/react-course
 //localhost://posts/tag/web-design

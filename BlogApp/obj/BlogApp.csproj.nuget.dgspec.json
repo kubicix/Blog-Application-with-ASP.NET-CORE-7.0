@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj": {}
+    "c:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj": {
+    "c:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj",
+        "projectUniqueName": "c:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj",
         "projectName": "BlogApp",
-        "projectPath": "C:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj",
+        "projectPath": "c:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\BlogApp.csproj",
         "packagesPath": "C:\\Users\\kubil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\obj\\",
+        "outputPath": "c:\\Users\\kubil\\Desktop\\BlogApp\\BlogApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kubil\\AppData\\Roaming\\NuGet\\NuGet.Config",

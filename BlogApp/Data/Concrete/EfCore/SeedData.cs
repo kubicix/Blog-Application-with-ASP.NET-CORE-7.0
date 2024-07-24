@@ -37,6 +37,7 @@ namespace BlogApp.Data.Concrete.EfCore
                 if(!context.Posts.Any()){
                     context.Posts.AddRange(new Post {
                         Title="Asp.net Core",
+                        Description="asp.net course for beginners",
                         Content="Asp.net course complete to get certificated.",
                         Url="aspnet-core",
                         IsActive=true,
@@ -59,6 +60,7 @@ namespace BlogApp.Data.Concrete.EfCore
                     },
                     new Post {
                         Title="Php Course",
+                        Description="php course for beginners",
                         Content="Php lessons with codeigniter framework.",
                         Url="php-course",
                         IsActive=true,
@@ -69,6 +71,7 @@ namespace BlogApp.Data.Concrete.EfCore
                     },
                     new Post {
                         Title="Django Course",
+                        Description="django web course for beginners",
                         Content="Learn python and django at the same time.",
                         Url="django-course",
                         IsActive=true,
@@ -79,6 +82,7 @@ namespace BlogApp.Data.Concrete.EfCore
                     },
                     new Post {
                         Title="React Course",
+                        Description="react course for beginners",
                         Content="Learn programming for mobile and web in the same time!",
                         Url="react-course",
                         IsActive=true,
@@ -89,6 +93,7 @@ namespace BlogApp.Data.Concrete.EfCore
                     },
                     new Post {
                         Title="Angular Course",
+                        Description="angular course for beginners",
                         Content="Learn to code Angular with typescript.",
                         Url="angular-course",
                         IsActive=true,

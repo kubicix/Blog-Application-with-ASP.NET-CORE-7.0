@@ -13,7 +13,7 @@
             </div>
             <img src="~/img/@Model.Image" alt="Post Resmi" class="img-fluid rounded">
             <div>
-                @Model.Content
+                @Html.Raw(@Model.Content)
             </div>
             <div class="bg-white mt-3">
                 <div class="card border-0">
@@ -111,4 +111,5 @@
             });
         })
     </script>
+    
 }

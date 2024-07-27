@@ -36,6 +36,7 @@ namespace BlogApp.Controllers
         {
             return View(await _postRepository
             .Posts
+            .Include(x=>x.User)
             .Include(x=>x.Tags)
             .Include(x=>x.Comments)
             .ThenInclude(x=>x.User)

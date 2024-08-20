@@ -6,11 +6,8 @@ Welcome to the Blog Application! This project is built using ASP.NET Core 7.0, p
 - [Features](#features-✨)
 - [Getting Started](#getting-started-🚀)
 - [Prerequisites](#prerequisites-🛠️)
-- [Installation](#installation-🔧)
 - [Usage](#usage-📝)
 - [Screenshots](#screenshots-📸)
-- [Contributing](#contributing-🤝)
-- [License](#license-📄)
 
 ## Features ✨
 - **Create, Read, Update, Delete (CRUD)** operations for blog posts.
